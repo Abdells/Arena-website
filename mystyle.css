@@ -1,0 +1,126 @@
+ *{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background:#659BFF;
+    margin: 0px;
+}
+header{
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: verdana;
+    font-size: 25px;
+
+}
+nav{
+    background:#1232A5;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+h1.logo{
+    color: white;
+    font-size: 300%;
+   line-height:80px;
+    padding:0 100px;
+    font-weight: bold;
+    flex: 40%;
+    max-width: 40%;
+    text-align: center;
+}
+nav ul{
+    margin-right: 20px;
+    padding-top: 30px;
+    }
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a{
+     color:white;
+     display: block;
+     padding: 10px;
+     font-size: 7px 13px;
+     border-radius: 3px;
+
+}
+nav ul li a:hover {
+    color: #1232A5;
+    background: white;
+}
+
+p{
+    font-family: verdana;
+    color:white;
+    margin:10px 20px 20px;
+}
+
+div img{
+    width: 95%;
+    display: block;
+    border-radius: 10px;
+     //height: 300px;
+    height: auto;
+    margin: 20px auto;
+
+}
+div.image_container{
+    align-content: center;
+}
+section.wrapper {
+    background: #555;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+section.wrapper h1 {
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.row input, .row select, input[type="submit"] {
+    width: 80%;
+    padding: 8px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 6px;
+
+}
+.wrapper input[type="submit"] {
+    background: lightblue;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    border:none;
+}
+.wrapper input[type="submit"]:hover {
+    background: green;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        flex-flow: column nowrap;
+        }
+    nav ul, h1.logo {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+

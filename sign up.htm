@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet"href="mystyle.css">
+    </head>
+    <style>
+      
+    </style>
+<body>
+     <nav class="header">
+        <h1 class="logo">Arena</h1>
+            <ul>
+                <li><a href="home page.htm">Home</a></li>
+                <li><a href="sign_in.htm">Sign In</a></li>
+                <li><a href="about page.htm">About</a></li>
+            </ul>
+        </nav>
+    <div class="container">
+    <header>
+
+    </header>
+    <div class="main-container">
+        <section class="wrapper">
+            <h1>Sign Up</h1>
+        
+            <form action="process.php" method="POST">
+                <div class="row">
+                    <input type="text" name="FullName" placeholder="Enter Your Full Name">
+                </div> <br>
+                <div class="row">
+                    <input type="text" name="NickName" placeholder="Enter Your Nick Name">
+                </div><br>
+                <div class="row">
+                    <input type="Number" name="PhoneNumber" placeholder="Enter Phone Number">
+                </div> <br>
+                <div class="row">
+                    <select required>
+                        <option value=" " >Choose Your Course</option>
+                        <option value="BSc Applied Chemistry">BSc Applied Chemistry</option>
+                        <option value="BSc Applied Biology">BSc Applied Biology</option>
+                        <option value="BSc Applied Physics">BSc Applied Physics</option>
+                        <option value="BSc Information Technology">BSc Information Technology</option>
+                        <option value="BSc Statistics">BSc Statistics</option>
+                        <option value="BSc Mathematics With Economics">BSc Mathematics With Economics</option>
+                        <option value="BSc Computing With Economics">BSc Computing With Economics</option>
+                        <!--option value=""></option-->
+                        <!--option value=""></option-->
+                        <!--option value=""></option-->
+                        <!--option value=""></option-->
+                        <!--option value=""></option-->
+                    </select>
+                </div><br>
+                <div class="row">
+                   <input type="password" name="Password" placeholder="Choose Your Password">
+                </div>  <br>
+        
+                <div class="row">
+                    <input type="password" name="Password" placeholder="Re-Enter Your Password">
+                </div>  <br>
+        
+                     <input type="submit" name="submit" value="Sign Up">
+        
+            </form>
+            </section>
+    </div>
+</body>
+</div>
+</html>
